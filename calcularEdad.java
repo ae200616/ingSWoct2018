@@ -23,7 +23,7 @@ public class calcularEdad {
                 midia = teclado.nextInt();
 		edad = calcularEdad(miaño,mimes,midia);
                 flwriter = new FileWriter("C:\\Cursos\\archivo.txt");
-                flwriter.write(Integer.toString(edad));
+                flwriter.write("Tu edad es: " + Integer.toString(edad));
                 flwriter.close();
                         
 	}
